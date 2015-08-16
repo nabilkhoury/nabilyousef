@@ -18,6 +18,9 @@ public class Matrix {
        
     }
     
+    public static void addd(int a [][], int b [][]) {
+    }
+    
     public static void add(int a [][], int b [][]) {
         for(int i=0;i<a.length;i++){
             for(int j=0;j<a[0].length;j++){
