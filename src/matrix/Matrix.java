@@ -19,6 +19,8 @@ public class Matrix {
        
     }
     
+    public static void sub(int a [][], int b [][]) {
+    }
     public static void adddd(int a [][], int b [][]) {
     }
     public static void adddddd(int a [][], int b [][]) {
