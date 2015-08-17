@@ -44,6 +44,13 @@ public class Matrix {
             }
         }
     }
+    public static void print2(int a [][]) {
+        for(int i=0;i<a.length;i++){
+            for(int j=0;j<a[0].length;j++){
+                System.out.println(a[i][j]);
+            }
+        }
+    }
     ///////
-    ////zzzzzz
+    ////zzzzzzzzzzzzzzzz
 }
