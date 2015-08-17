@@ -18,6 +18,8 @@ public class Matrix {
         
        
     }
+    public static void test11(int a [][], int b [][]) {
+    }
     public static void test3(int a [][], int b [][]) {
     }
     public static void test4(int a [][], int b [][]) {
