@@ -18,24 +18,6 @@ public class Matrix {
         
        
     }
-    public static void test11(int a [][], int b [][]) {
-    }
-    public static void test3(int a [][], int b [][]) {
-    }
-    public static void test4(int a [][], int b [][]) {
-    }
-    public static void test1(int a [][], int b [][]) {
-    }
-    public static void test(int a [][], int b [][]) {
-    }
-    public static void sub(int a [][], int b [][]) {
-    }
-    public static void adddd(int a [][], int b [][]) {
-    }
-    public static void adddddd(int a [][], int b [][]) {
-    }
-    public static void addd(int a [][], int b [][]) {
-    }
     
     public static void add(int a [][], int b [][]) {
         for(int i=0;i<a.length;i++){
@@ -59,12 +41,19 @@ public class Matrix {
             }
         }
     }
-    ///////
-    ////zzzzzzzzzzzzzzzzkkkkkkkkkkkkkaaaaaaaaaaaaaaa
-    public static void test20(int a [][], int b [][]) {
-        int z = 9;
-        int k = 4;
-        int g = 6;
-        int d = 9;
+    public static void Subtract(int[][] A, int[][] B)
+    {
+        
+        for(int row = 0; A.length > row;row++ )
+        {
+            for(int column = 0; A[0].length > column;column++ )
+            {
+                System.out.print(A[row][column] - B[row][column] + " ");
+            }
+        
+            System.out.println();
+        }
+    
+    
     }
 }
