@@ -64,5 +64,7 @@ public class Matrix {
     public static void test20(int a [][], int b [][]) {
         int z = 9;
         int k = 4;
+        int g = 6;
+        int d = 9;
     }
 }
