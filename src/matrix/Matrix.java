@@ -63,5 +63,6 @@ public class Matrix {
     ////zzzzzzzzzzzzzzzzkkkkkkkkkkkkkaaaaaaaaaaaaaaa
     public static void test20(int a [][], int b [][]) {
         int z = 9;
+        int k = 4;
     }
 }
