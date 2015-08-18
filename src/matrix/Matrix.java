@@ -62,6 +62,6 @@ public class Matrix {
     ///////
     ////zzzzzzzzzzzzzzzzkkkkkkkkkkkkkaaaaaaaaaaaaaaa
     public static void test20(int a [][], int b [][]) {
-        int v = 1;
-    }
+}
+    int a = 1;
 }
