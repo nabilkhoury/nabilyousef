@@ -13,7 +13,7 @@ public class Matrix {
         int aa[][]={{1,2},{1,2}};
         int bb[][]={{1,2},{1,2}};
         add(aa,bb);
-        
+        Subtract(aa,bb);
         print(aa);
         
        
