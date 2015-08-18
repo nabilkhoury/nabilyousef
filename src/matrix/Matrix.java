@@ -11,20 +11,20 @@ public class Matrix {
     public static void main(String[] args) {
 
         int aa[][]={{1,2},{1,2}};
-        int bb[][]={{1,2},{1,2}};
+        int bb[][]={{1,7},{1,2}};
         add(aa,bb);
-        Subtract(aa,bb);
-        print(aa);
         
-       
+       Subtract(aa,bb);
     }
     
     public static void add(int a [][], int b [][]) {
+        int[][] c = new int[a.length][a[0].length];
         for(int i=0;i<a.length;i++){
             for(int j=0;j<a[0].length;j++){
-                a[i][j] += b[i][j];
+                c[i][j] =a[i][j] + b[i][j];
             }
         }
+        print(c);
     }
     
     public static void print(int a [][]) {
@@ -37,16 +37,16 @@ public class Matrix {
     }
     public static void Subtract(int[][] A, int[][] B)
     {
-        
+        int[][] C = new int[A.length][A[0].length];
         for(int row = 0; A.length > row;row++ )
         {
             for(int column = 0; A[0].length > column;column++ )
             {
-                System.out.print(A[row][column] - B[row][column] + " ");
+               C[row][column] = A[row][column] - B[row][column];
             }
-        
-            System.out.println();
+       
         }
+        print(C);
     
     
     }
