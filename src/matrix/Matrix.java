@@ -32,6 +32,7 @@ public class Matrix {
             for(int j=0;j<a[0].length;j++){
                 System.out.println(a[i][j]);
             }
+            System.out.println();
         }
     }
     public static void Subtract(int[][] A, int[][] B)
